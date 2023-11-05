@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.39.0",
-    "@remix-run/dev": "0.0.0-nightly-3874120-20231103",
+    "@remix-run/dev": "file:.yalc/@remix-run/dev",
     "@remix-run/eslint-config": "0.0.0-nightly-3874120-20231103",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
