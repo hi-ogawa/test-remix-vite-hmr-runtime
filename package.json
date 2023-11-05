@@ -7,6 +7,7 @@
     "build": "vite build && vite build --ssr",
     "dev": "vite dev",
     "start": "remix-serve ./build/index.js",
+    "test-e2e": "playwright test",
     "typecheck": "tsc"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.39.0",
     "@remix-run/dev": "0.0.0-nightly-3874120-20231103",
     "@remix-run/eslint-config": "0.0.0-nightly-3874120-20231103",
     "@types/react": "^18.2.20",
