@@ -9,7 +9,6 @@ export default defineConfig({
     baseURL: `http://localhost:${PORT}`,
     trace: "on-first-retry",
   },
-  timeout: 10 * 60 * 1000,
   projects: [
     {
       name: "chromium",

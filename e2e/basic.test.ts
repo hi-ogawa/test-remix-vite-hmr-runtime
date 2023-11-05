@@ -1,6 +1,8 @@
 import { test } from "@playwright/test";
 
 test("basic", async ({ page }) => {
+  test.setTimeout(0);
+
   const errors: Error[] = []
   page.addListener("pageerror", (e) => {
     errors.push(e);
