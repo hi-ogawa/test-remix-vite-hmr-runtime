@@ -1,3 +1,7 @@
+Reproduction and testing of
+- https://github.com/remix-run/remix/issues/7914
+- https://github.com/remix-run/remix/issues/7863
+
 # templates/unstable-vite
 
 ⚠️ Remix support for Vite is unstable and not recommended for production.
