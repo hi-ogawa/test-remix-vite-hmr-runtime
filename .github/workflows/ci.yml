@@ -13,6 +13,7 @@ jobs:
         with:
           node-version: 18
           cache: pnpm
-      - run: pnpm i
-      - run: pnpm exec playwright install chromium
-      - run: pnpm test-e2e
+      - run: npm i -g @antfu/ni
+      - run: ni
+      - run: nlx playwright install chromium
+      - run: nr test-e2e
