@@ -17,7 +17,7 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: `pnpm dev --port ${PORT}`,
+    command: `npm run dev -- --port ${PORT}`,
     port: PORT
   }
 });
